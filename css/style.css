@@ -1,0 +1,163 @@
+*{margin: 0; padding: 0;}
+
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #e1e9e5;
+}
+
+/*navbar*/
+.navbar-nav
+{
+    display: flex;
+    flex-direction: row;
+}
+.collapse{
+    padding-right: 5%;
+}
+.nav-item .nav-link{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*home*/
+.content{
+    color: #fff;
+    position: absolute;
+    top: 350px;
+    padding-left: 32%;
+    z-index: 1;
+}
+h1{
+    font-size: 75px;
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+/*grade curricular*/
+
+#compo{
+    padding-top: 5%;
+}
+
+.card{
+    height: 500px;
+    background-color: #84e4ba;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card .img-fluid{
+    height: 200px;
+    width: 100%;
+}
+
+
+/*Areas Atuação*/
+
+#areas{
+    padding-top: 5%;
+}
+
+#perfil{
+    color:white;
+    font-size: 20px;
+}
+
+.cards-wrapper{
+    display: flex;
+}
+
+.card{
+    margin: 0 .5rem;
+}
+
+.card-text{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.img-fluid{
+    height: 300px;
+    width: 350px;
+}
+
+/*Universidades*/
+#uni{
+    margin-left: 60px;
+    padding-top: 5%;
+}
+
+
+#uni .card {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.2s ease-in-out;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color:#FFF;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+  }
+
+.card p{
+    text-align: center;
+}
+  
+#uni  .card:hover {
+    box-shadow: 0 5px 5px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+#uni  .card img{
+    width:100%;
+  }
+
+  .cstm-height-card .card-img-top {
+    height: 100px;
+    object-fit: cover;
+  }
+
+p{
+    font-size: 110%;
+    text-align: justify;
+}
+h5{
+    padding-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ratio{
+    width: 800px;
+    height: 400px;
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+
+
+/*formação*/
+
+#formacao{
+    padding-top: 5%;
+}
+
+
+.list-bullets li{
+    font-size: 110%;
+    padding-bottom: 8%;
+}
+
+/*CFN-CRN*/
+
+#crn-cfn{
+    padding-top: 5%;
+}
+
+footer{
+    margin-top: 5%;
+}
